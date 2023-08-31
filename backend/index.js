@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 8080
-const uri = 'mongodb+srv://defreitasdiego360:Manchester8888@events.vsmlohb.mongodb.net/EventPlanner?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://<ENTER USERNAME HERE>:<ENTER PASSWORD HERE>@events.vsmlohb.mongodb.net/<ENTER DB NAME HERE>?retryWrites=true&w=majority'
 const bodyParser = require('body-parser')
 const cors = require("cors");
 const routes = require('./routes/routes')
