@@ -1,0 +1,80 @@
+/*
+I styled all my elements using class styling and element styling
+*/
+
+.mainHeading{
+    font-family: monaco;
+}
+
+.secondaryFooterHeading{
+    font-family: monaco;
+}
+
+.footer-container{
+    background-color: darkslategray;
+    color: white;
+    font-family: monaco;
+    font-size: x-large;
+}
+
+.contactInfo{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.locationInfo{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Row{
+    margin: 0px !important;
+}
+
+.events-container{
+    align-items: center;
+}
+
+th{
+    font-family: monaco;
+    font-size: x-large;
+}
+
+td{
+    font-family: monaco;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: #adadad;
+  }
+
+.Table{
+    width: 1000px;
+    height: 100px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.popup{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.popupInner{
+    text-align: center;
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+}

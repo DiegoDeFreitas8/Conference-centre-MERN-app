@@ -1,0 +1,28 @@
+/*
+styled with class styling 
+*/
+
+.App {
+  text-align: center;
+}
+
+.secondaryHeading{
+  font-family:'Courier New', Courier, monospace ;
+}
+
+.thirdHeading{
+  font-family:'Courier New', Courier, monospace ;
+}
+
+.signInContainer{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.Button{
+  background-color: darkslategray !important;
+  border-color: darkslategray !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
