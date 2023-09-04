@@ -18,7 +18,7 @@ exports.readLogin = async function(req, res){
 //jwt
 exports.createLogin = function(req, res) {
     const usr = req.body.username;
-    const pwd = req.body.username;
+    const pwd = req.body.password;
     const isAdmin = req.body.admin
 
     if(usr && pwd) {
